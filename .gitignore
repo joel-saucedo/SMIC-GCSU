@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment folder
+venv/
+.env
+
+# Data files (if not meant for version control)
+data/
+DCF/
+CCA/
