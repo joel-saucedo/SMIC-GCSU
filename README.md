@@ -15,7 +15,7 @@ This public repository contains tools for the Georgia College & State Univeristy
 
 ## Contributing
 
-Feel free to email joel.saucedo@bobcats.gcsu.edu to become a contributor to this project.
+
 
 ## Future Work
 
