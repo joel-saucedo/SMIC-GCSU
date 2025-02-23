@@ -38,7 +38,7 @@ df_spy["return"] = df_spy["close"].pct_change()
 
 #------------------------------------------------------------------------------ 
 # Get the risk-free rate from FRED using the 10-Year T-Bond yield.
-fred = Fred(api_key="db4adf1cadf0ab552ea07e2c4f2bb8cf")
+fred = Fred(api_key="apikey")
 rf_series = fred.get_series('DGS10', observation_start='2020-01-01', observation_end='2025-12-31')
 rf_series = rf_series.dropna().sort_index()
 rf_daily = rf_series / 100 / 252  # Convert to daily risk-free rate assuming 252 trading days
