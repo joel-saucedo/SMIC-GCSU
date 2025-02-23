@@ -4,6 +4,8 @@ This public repository contains tools for the Georgia College & State Univeristy
 - Fetching and parsing financial statements using a high quality data source.
 - Discounted Cash Flow (DCF) valuation
 - Comparable Company Analysis (CCA)
+- Stock performance research tools
+- Allocation decision tools via historical basktesting
 
 ## Getting Started
 
