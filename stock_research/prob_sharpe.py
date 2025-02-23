@@ -29,7 +29,7 @@ sector_ticker = "SPY"
 
 #------------------------------------------------------------------------------
 # Your FMP API key and function to pull and store historical data if not already saved
-API_KEY = "KddXI9TqRFhJwiCVpAuRjLKGoKzUu0q5"  # replace with your own FMP API key
+API_KEY = "apikey"  # replace with your own FMP API key
 
 def fetch_and_save_stock_data(ticker):
     file_path = os.path.join(data_dir, f"{ticker}.csv")
@@ -55,7 +55,7 @@ def fetch_and_save_stock_data(ticker):
 
 #------------------------------------------------------------------------------
 # Get the historical risk free rate from FRED using the 10-Year T-bond series.
-fred = Fred(api_key="db4adf1cadf0ab552ea07e2c4f2bb8cf")
+fred = Fred(api_key="apikey")
 rf_series = fred.get_series('DGS10', observation_start='1990-01-01')
 rf_series = rf_series.dropna().sort_index()
 # Convert annualized percentage yield to a daily rate (assuming 252 trading days)
